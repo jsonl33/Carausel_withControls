@@ -68,6 +68,14 @@ function make_slides($connect)
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    // 3초마다 다음 이미지로 넘어가게 하는 스크립트
+  $(document).ready(function(){
+    $('.carousel').carousel({
+        interval: 3000 // Change slide interval here (in milliseconds)
+    });
+  });
+  </script>
  </head>
  <body>
   <br />
