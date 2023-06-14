@@ -1,6 +1,6 @@
 <?php
 //index.php
-$connect = mysqli_connect("localhost", "test", "1234", "testing");
+$connect = mysqli_connect("localhost", "root", "", "testing");
 //mysqli_connect(hostname or IP address, MySQL username, password, dbname);
 function make_query($connect)
 {
