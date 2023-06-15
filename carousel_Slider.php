@@ -71,8 +71,6 @@ function make_slides($connect)
 <body>
   <br />
   <div class="container">
-    <h2 align="center">PHP jquery MySQL 슬라이더입니다.</h2>
-    <br />
     <div id="dynamic_slide_show" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <?php echo make_slide_indicators($connect); ?>
